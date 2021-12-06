@@ -1,7 +1,7 @@
 # Redux-Notes
 This is a project that utilizes React and Redux to build a very simple account balance app.
 
-The point of this project is to showcase best practices with Redux specifically
+The point of this project is to specifically showcase best practices with Redux.
 
 This project was inspired from the youtube video linked below, however there is a large degree of seperation
 from the youtube video as things listed there either weren't best practice or are now outdated methods
