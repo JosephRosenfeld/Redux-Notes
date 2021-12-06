@@ -1,0 +1,7 @@
+Each piece of state will only have one reducer so the naming convention for
+files in the 'reducers' folder should be singular. {stateVar}Reducer.
+Each file will export a reducer. within the reducers folder there will be an
+index.js file which will combine all the reducers and also set the name of the state
+variable.
+
+Those combined reducers are then exported into the store.

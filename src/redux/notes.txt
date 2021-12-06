@@ -1,0 +1,27 @@
+A common react-redux folder structure would like like this 
+src 
+ -redux
+    -actions
+      -data1Actions.js
+      -data2Actions.js
+    -constants
+      -data1Constants.js
+      -data2Constants.js
+    -reducers
+      -data1Reducer.js
+      -data2Reducer.js
+      -index.js
+    -store.js
+  -api
+    -index.js
+  -components
+    -Component1
+      -Component1.js
+      -Component1.css 
+    -Component2
+      -Component2.js
+      -Component2.css 
+  App.css 
+  App.js 
+  index.css
+  index.js

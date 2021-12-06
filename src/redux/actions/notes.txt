@@ -2,3 +2,7 @@ Each file in the actions subfolder should be called {stateVar}Actions.
 Each file will contain multiple action creators for that specific state and each 
 action creator will dispatch an action with a specific payload and type that
 the corresponding reducer will be able to handle.
+
+Really the outer folder should be called "action-creators" and then each individual
+js file should be called {stateVar}ActionCreator.js if we wanted to be completely accurate
+but oh well, that isn't super important and would make things quite verbose.

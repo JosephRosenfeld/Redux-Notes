@@ -12,7 +12,7 @@ we created in store.js, this is what gives the entire app access to the store*/
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
-      <App name={"testing"} />
+      <App />
     </Provider>
   </React.StrictMode>,
   document.getElementById("root")
